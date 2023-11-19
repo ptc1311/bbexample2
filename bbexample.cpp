@@ -1,4 +1,5 @@
 #include <iostream>
+#include <nlohmann/json.hpp>
 
 #include "bbfunction1.h"
 #include "bbfunction2.h"
@@ -25,7 +26,15 @@ int main(int argc, char *argv[])
   function8();
   function9();
   function10();
+
+  nlohmann::json jsonExample = {
+        {"name", "John"},
+        {"age", 30},
+        {"city", "New York"}
+    };
   
+  std::cout << jsonExample.dump(2) << std::endl;
+
   return 0;
 }
 
