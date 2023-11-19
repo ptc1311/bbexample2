@@ -1,4 +1,4 @@
-project('bbexample', 'cpp',
+project('bbexample2', 'cpp',
         version : '0.0.1')
 
 # Include Directories
