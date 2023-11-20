@@ -38,8 +38,6 @@ bblib = static_library(
     srcfiles,
     include_directories : incdir,)
 
-
-
 executable(
   'bbexample2',
   'bbexample.cpp',

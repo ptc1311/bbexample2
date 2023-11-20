@@ -11,12 +11,13 @@
 #include "bbfunction9.h"
 #include "bbfunction10.h"
 
-using json = nlohmann::json;
 
 int main(int argc, char *argv[])
 {
   std::cout << "Hello from main!" << std::endl;
-  /*function1();
+  //std::cout << "Hello from main!" << std::endl;
+
+  function1();
   function2();
   function3();
   function4();
@@ -25,9 +26,7 @@ int main(int argc, char *argv[])
   function7();
   function8();
   function9();
-  function10();*/
-
-
+  function10();
 
   return 0;
 }
